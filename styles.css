@@ -8,7 +8,8 @@
 
 body {
   font-family: "Lato", sans-serif;
-  margin: 0px;
+  margin: 0px auto;
+  width: 85%;
 }
 
 hr {
@@ -19,33 +20,46 @@ hr {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
+  text-align: center;
 }
 
 .link {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  border-radius: 2rem;
 }
 
 .primary-link {
-  display: block;
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: var(--primary-color);
-  border-radius: 0.5rem;
   color: white;
 }
 
-.secondary-link {
-  display: block;
+.primary-link:hover {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: white;
-  border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+.secondary-link {
+  margin: 1rem 1rem 1rem 0rem;
+  max-width: 130px;
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.secondary-link:hover {
+  margin: 1rem 1rem 1rem 0rem;
+  max-width: 130px;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .list-no-bullet {
@@ -102,11 +116,15 @@ hr {
 }
 
 .section {
-  padding: 3rem;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 1rem;
 }
 
 .section h1 {
   text-align: center;
+  margin-block-start: 0;
 }
 
 .ow {
