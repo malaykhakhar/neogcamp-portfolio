@@ -125,6 +125,11 @@ hr {
 .section h1 {
   text-align: center;
   margin-block-start: 0;
+  margin: 0.5rem;
+}
+
+.section p {
+  margin-bottom: 1.75rem;
 }
 
 .ow {
