@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #60a5fa;
+  --primary-color: #f87171;
   --dark-gray: #6b7280;
   --off-white: #f3f4f6;
+  --white: #ffffff;
 }
 
 body {
@@ -36,13 +37,13 @@ hr {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
 }
 
 .primary-link:hover {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
-  background-color: white;
+  background-color: var(--white);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
@@ -50,7 +51,7 @@ hr {
 .secondary-link {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
-  background-color: white;
+  background-color: var(--white);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
@@ -59,7 +60,7 @@ hr {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
 }
 
 .list-no-bullet {
@@ -73,13 +74,13 @@ hr {
 
 .navigation {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
   padding: 0.5rem;
   border-bottom-left-radius: 1rem;
 }
 
 .nav-brand {
-  color: white;
+  color: var(--white);
   font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ hr {
 }
 
 .navigation a {
-  color: white;
+  color: var(--white);
 }
 
 .navigation .link-active {
@@ -116,7 +117,7 @@ hr {
 }
 
 .section {
-  padding: 2rem;
+  padding: 0.5rem 2rem 2rem;
   max-width: 900px;
   margin: 2rem auto;
   border-radius: 1rem;
@@ -141,7 +142,7 @@ hr {
   border-top-right-radius: 1rem;
   padding: 2rem;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 
 .footer ul {
@@ -149,7 +150,7 @@ hr {
 }
 
 .footer a {
-  color: white;
+  color: var(--white);
 }
 
 .footer .footer-header {
