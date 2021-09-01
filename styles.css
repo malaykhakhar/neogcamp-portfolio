@@ -21,9 +21,9 @@ hr {
 }
 
 .container-center {
-  max-width: 900px;
+  max-width: 40rem;
   margin: auto;
-  text-align: center;
+  text-align: justify;
 }
 
 .link {
@@ -118,15 +118,15 @@ hr {
 
 .section {
   padding: 0.5rem 2rem 2rem;
-  max-width: 900px;
+  max-width: 40rem;
   margin: 2rem auto;
   border-radius: 1rem;
 }
 
 .section h1 {
-  text-align: center;
+  text-align: justify;
   margin-block-start: 0;
-  margin: 0.5rem;
+  margin: 0.5rem 0rem;
 }
 
 .section p {
@@ -135,6 +135,15 @@ hr {
 
 .ow {
   background-color: var(--off-white);
+}
+
+.tech-stack {
+  margin: 1.2rem 0rem;
+}
+
+.tech-img {
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .footer {
