@@ -21,7 +21,7 @@ hr {
 }
 
 .container-center {
-  max-width: 40rem;
+  /* max-width: 40rem; */
   margin: auto;
   text-align: justify;
 }
@@ -97,6 +97,7 @@ hr {
 }
 
 .hero {
+  margin: 3rem;
   padding: 2rem;
 }
 
@@ -109,7 +110,12 @@ hr {
 .hero .hero-heading {
   padding-top: 1rem;
   text-align: center;
-  color: var(--dark-gray);
+  color: #333333;
+}
+
+.hero .hero-desc {
+  text-align: center;
+  font-size: larger;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -182,3 +188,7 @@ hr {
   max-width: 140px;
   display: block;
 } */
+
+#tech-para {
+  margin-bottom: 0px;
+}
