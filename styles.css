@@ -102,7 +102,8 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 350px;
+  width: 40%;
+  min-width: 370px;
   display: block;
   margin: auto;
 }
@@ -114,12 +115,31 @@ hr {
 }
 
 .hero .hero-desc {
+  margin: auto;
+  max-width: 500px;
   text-align: center;
   font-size: larger;
 }
 
 .hero .hero-heading .heading-inverted {
   color: var(--primary-color);
+}
+
+#index-hero {
+  margin: 1rem 0;
+}
+
+.index-img {
+  display: block;
+  margin: auto;
+}
+
+#index-heading {
+  font-size: 3rem;
+}
+
+#index-desc {
+  font-size: 2rem;
 }
 
 .section {
@@ -198,12 +218,12 @@ hr {
   margin-bottom: 0px;
 }
 
-.try {
+.blog {
   display: inline-block;
   width: 40%;
   min-width: 400px;
 }
 
-.try-center {
+.blog-center {
   text-align: center;
 }
