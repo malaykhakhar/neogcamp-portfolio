@@ -97,7 +97,7 @@ hr {
 }
 
 .hero {
-  margin: 3rem;
+  /* margin: 3rem; */
   padding: 2rem;
 }
 
@@ -196,4 +196,14 @@ hr {
 
 #tech-para {
   margin-bottom: 0px;
+}
+
+.try {
+  display: inline-block;
+  width: 40%;
+  min-width: 400px;
+}
+
+.try-center {
+  text-align: center;
 }
