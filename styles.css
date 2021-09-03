@@ -184,6 +184,11 @@ hr {
   height: 25px;
 }
 
+.footer-inline {
+  display: inline;
+  padding: 0;
+}
+
 /* .link-block {
   max-width: 140px;
   display: block;
