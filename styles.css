@@ -30,7 +30,7 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border-radius: 2rem;
+  border-radius: 0.75rem;
 }
 
 .primary-link {
@@ -40,7 +40,7 @@ hr {
   color: var(--white);
 }
 
-.primary-link:hover {
+.primary-hover:hover {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: var(--white);
@@ -56,7 +56,7 @@ hr {
   color: var(--primary-color);
 }
 
-.secondary-link:hover {
+.secondary-hover:hover {
   margin: 1rem 1rem 1rem 0rem;
   max-width: 130px;
   background-color: var(--primary-color);
@@ -144,7 +144,7 @@ hr {
 }
 
 .section {
-  padding: 0.5rem 2rem 2rem;
+  padding: 0.5rem 2rem;
   max-width: 40rem;
   margin: 2rem auto;
   border-radius: 1rem;
@@ -157,7 +157,13 @@ hr {
 }
 
 .section p {
-  margin-bottom: 1.75rem;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.section-link {
+  display: inline-block;
+  margin: 1rem 0;
 }
 
 .ow {
